@@ -17,7 +17,7 @@ public class CopyArraylist {
 		al1.add("hai");
 		al1.add("hello");
 		System.out.println("array list elements"+al);
-		Collections.copy(al1, al1);
+		Collections.copy(al1, al);
 		System.out.println("copy elements in arraylist"+al1);
 		
 		
